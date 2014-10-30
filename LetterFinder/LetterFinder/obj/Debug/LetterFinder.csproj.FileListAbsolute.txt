@@ -1,0 +1,6 @@
+C:\Users\dustin\Documents\GitHub\Program5Solutions\LetterFinder\LetterFinder\bin\Debug\LetterFinder.exe.config
+C:\Users\dustin\Documents\GitHub\Program5Solutions\LetterFinder\LetterFinder\obj\Debug\LetterFinder.csprojResolveAssemblyReference.cache
+C:\Users\dustin\Documents\GitHub\Program5Solutions\LetterFinder\LetterFinder\bin\Debug\LetterFinder.exe
+C:\Users\dustin\Documents\GitHub\Program5Solutions\LetterFinder\LetterFinder\bin\Debug\LetterFinder.pdb
+C:\Users\dustin\Documents\GitHub\Program5Solutions\LetterFinder\LetterFinder\obj\Debug\LetterFinder.exe
+C:\Users\dustin\Documents\GitHub\Program5Solutions\LetterFinder\LetterFinder\obj\Debug\LetterFinder.pdb

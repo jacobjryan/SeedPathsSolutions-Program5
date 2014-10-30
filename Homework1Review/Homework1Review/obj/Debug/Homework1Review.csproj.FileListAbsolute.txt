@@ -1,0 +1,6 @@
+C:\Users\dustin\Documents\GitHub\Program5Solutions\Homework1Review\Homework1Review\bin\Debug\Homework1Review.exe.config
+C:\Users\dustin\Documents\GitHub\Program5Solutions\Homework1Review\Homework1Review\bin\Debug\Homework1Review.exe
+C:\Users\dustin\Documents\GitHub\Program5Solutions\Homework1Review\Homework1Review\bin\Debug\Homework1Review.pdb
+C:\Users\dustin\Documents\GitHub\Program5Solutions\Homework1Review\Homework1Review\obj\Debug\Homework1Review.csprojResolveAssemblyReference.cache
+C:\Users\dustin\Documents\GitHub\Program5Solutions\Homework1Review\Homework1Review\obj\Debug\Homework1Review.exe
+C:\Users\dustin\Documents\GitHub\Program5Solutions\Homework1Review\Homework1Review\obj\Debug\Homework1Review.pdb
