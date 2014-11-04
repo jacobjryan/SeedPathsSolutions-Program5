@@ -1,0 +1,6 @@
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\TextPrinter\TextPrinter\bin\Debug\TextPrinter.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\TextPrinter\TextPrinter\obj\Debug\TextPrinter.csprojResolveAssemblyReference.cache
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\TextPrinter\TextPrinter\bin\Debug\TextPrinter.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\TextPrinter\TextPrinter\bin\Debug\TextPrinter.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\TextPrinter\TextPrinter\obj\Debug\TextPrinter.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\TextPrinter\TextPrinter\obj\Debug\TextPrinter.pdb

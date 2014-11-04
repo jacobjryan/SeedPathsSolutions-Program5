@@ -1,0 +1,6 @@
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\GroupPicker\GroupPicker\bin\Debug\GroupPicker.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\GroupPicker\GroupPicker\bin\Debug\GroupPicker.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\GroupPicker\GroupPicker\bin\Debug\GroupPicker.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\GroupPicker\GroupPicker\obj\Debug\GroupPicker.csprojResolveAssemblyReference.cache
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\GroupPicker\GroupPicker\obj\Debug\GroupPicker.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\GroupPicker\GroupPicker\obj\Debug\GroupPicker.pdb
