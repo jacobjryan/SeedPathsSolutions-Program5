@@ -1,0 +1,6 @@
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\Week1CodeChallenge\Week1CodeChallenge\bin\Debug\Week1CodeChallenge.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\Week1CodeChallenge\Week1CodeChallenge\bin\Debug\Week1CodeChallenge.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\Week1CodeChallenge\Week1CodeChallenge\bin\Debug\Week1CodeChallenge.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\Week1CodeChallenge\Week1CodeChallenge\obj\Debug\Week1CodeChallenge.csprojResolveAssemblyReference.cache
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\Week1CodeChallenge\Week1CodeChallenge\obj\Debug\Week1CodeChallenge.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\Week1CodeChallenge\Week1CodeChallenge\obj\Debug\Week1CodeChallenge.pdb
