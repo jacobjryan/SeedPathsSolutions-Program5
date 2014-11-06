@@ -1,0 +1,6 @@
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\ScratchPad\ScratchPad\bin\Debug\ScratchPad.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\ScratchPad\ScratchPad\bin\Debug\ScratchPad.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\ScratchPad\ScratchPad\bin\Debug\ScratchPad.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\ScratchPad\ScratchPad\obj\Debug\ScratchPad.csprojResolveAssemblyReference.cache
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\ScratchPad\ScratchPad\obj\Debug\ScratchPad.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\ScratchPad\ScratchPad\obj\Debug\ScratchPad.pdb

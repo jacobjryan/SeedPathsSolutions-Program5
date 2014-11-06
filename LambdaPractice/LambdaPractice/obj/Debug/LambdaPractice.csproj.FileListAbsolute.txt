@@ -1,0 +1,5 @@
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\LambdaPractice\LambdaPractice\bin\Debug\LambdaPractice.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\LambdaPractice\LambdaPractice\bin\Debug\LambdaPractice.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\LambdaPractice\LambdaPractice\bin\Debug\LambdaPractice.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\LambdaPractice\LambdaPractice\obj\Debug\LambdaPractice.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\LambdaPractice\LambdaPractice\obj\Debug\LambdaPractice.pdb
