@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dragon_Slayer_2
+namespace EnumerationExample
 {
-    class Program {
+    class Program
+    {
         static void Main()
         {
             Car myCar = new Car();
@@ -20,28 +21,28 @@ namespace Dragon_Slayer_2
         }
     }
     public enum Colors
-            {
-                Red, 
-                Green, 
-                Blue, 
-                Orange
-            }
+    {
+        Red,
+        Green,
+        Blue,
+        Orange
+    }
     public class Car
     {
-        
+
 
         public Colors Color { get; set; }
 
         private List<string> _myList;
         public List<string> MyList
         {
-            get 
+            get
             {
                 //if (_myList == null)
                 //{
                 //    _myList = new List<string>();
                 //}
-                return _myList;    
+                return _myList;
             }
             set
             {
@@ -53,7 +54,7 @@ namespace Dragon_Slayer_2
         public void Honk()
         {
             Console.WriteLine("Beep Beep!");
-           
+
         }
 
         private string _model;
@@ -79,7 +80,7 @@ namespace Dragon_Slayer_2
             catch (Exception ex)
             {
                 Console.WriteLine("You had an error: {0} on the Throw an error Function", ex.Message);
-                
+
             }
         }
 
@@ -87,9 +88,25 @@ namespace Dragon_Slayer_2
         {
             Console.WriteLine((int)this.Color);
         }
-        
-        
+
+        public void EnumsWorkGreatWithSwitches()
+        {
+            switch (this.Color)
+            {
+                case Colors.Red:
+                    break;
+                case Colors.Green:
+                    break;
+                case Colors.Blue:
+                    break;
+                case Colors.Orange:
+                    break;
+                default:
+                    break;
+            }
+        }
+
+
 
     }
-    
 }

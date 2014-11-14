@@ -1,0 +1,6 @@
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\EnumerationExample\EnumerationExample\bin\Debug\EnumerationExample.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\EnumerationExample\EnumerationExample\bin\Debug\EnumerationExample.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\EnumerationExample\EnumerationExample\bin\Debug\EnumerationExample.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\EnumerationExample\EnumerationExample\obj\Debug\EnumerationExample.csprojResolveAssemblyReference.cache
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\EnumerationExample\EnumerationExample\obj\Debug\EnumerationExample.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\EnumerationExample\EnumerationExample\obj\Debug\EnumerationExample.pdb

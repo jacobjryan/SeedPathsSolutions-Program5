@@ -1,0 +1,7 @@
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\CSVImport\CSVImport\bin\Debug\CSVImport.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\CSVImport\CSVImport\bin\Debug\CSVImport.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\CSVImport\CSVImport\bin\Debug\CSVImport.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\CSVImport\CSVImport\obj\Debug\CSVImport.csprojResolveAssemblyReference.cache
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\CSVImport\CSVImport\obj\Debug\CSVImport.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\CSVImport\CSVImport\obj\Debug\CSVImport.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\CSVImport\CSVImport\bin\Debug\realestatedata.csv
