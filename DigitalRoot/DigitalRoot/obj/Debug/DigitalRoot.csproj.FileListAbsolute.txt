@@ -1,0 +1,5 @@
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\DigitalRoot\DigitalRoot\bin\Debug\DigitalRoot.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\DigitalRoot\DigitalRoot\bin\Debug\DigitalRoot.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\DigitalRoot\DigitalRoot\bin\Debug\DigitalRoot.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\DigitalRoot\DigitalRoot\obj\Debug\DigitalRoot.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\DigitalRoot\DigitalRoot\obj\Debug\DigitalRoot.pdb

@@ -4,200 +4,137 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GroupGenerator
+namespace CombatSimulator2
 {
     class Program
     {
-        static List<string> theClass = new List<string>() {"Jake", "Eric", "Reid", "Jackie", "Andrea", 
-                "Dustin", "Zachary", "Lauren", "Kaipo", "Brandon", "Aiko", "Dave", "Bayram", 
-                "Edgar", "Chris", "Josh", "Chase", "Nick", "Jackson"};
-
-
         static void Main(string[] args)
         {
-            //PickGroups(5, 20);
-
-
-            //PickGroups3000(3, theClass);
-            //PickGroups3000(4, theClass);
-            //PickGroups3000(5, theClass);
-            //PickGroups3000(6, theClass);
-            //PickGroups3000(7, theClass);
-
-
-            PickGroupsBySize(3, theClass);
-            PickGroupsBySize(3, theClass);
-            PickGroupsBySize(3, theClass);
-            PickGroupsBySize(3, theClass);
-            PickGroupsBySize(3, theClass);
-            //PickGroupsBySize(2, theClass);
-            //PickGroupsBySize(2, theClass);
-            //PickGroupsBySize(2, theClass);
-            //PickGroupsBySize(2, theClass);
-            //PickGroupsBySize(2, theClass);
-            //PickGroupsBySize(2, theClass);
-            //PickGroupsBySize(2, theClass);
-            //PickGroupsBySize(2, theClass);
-            //PickGroupsBySize(2, theClass);
-            //PickGroupsBySize(2, theClass);
-            //PickGroupsBySize(4, theClass);
-            //PickGroupsBySize(5, theClass);
-            //PickGroupsBySize(6, theClass);
-            //PickGroupsBySize(7, theClass);
-
-            Console.ReadKey();
-
+            CombatSimulator2();
         }
 
-
-        //First draft -- students are represented by integers
-        static void PickGroups(int numberOfGroups, int sizeOfClass)
+        static void CombatSimulator2()
         {
+            bool playing = true;
+            bool playAgain = true;
 
-            Random randMcNally = new Random();
-            List<int> listOfPeople = new List<int>();
-
-            //each group is represented by a string which will be printed to the console
-            List<string> listOfGroups = new List<string>();
-            int groupCounter = 0;
-
-            //create a list of students
-            for (int i = 0; i < sizeOfClass; i++)
+            do
             {
-                listOfPeople.Add(i);
-            }
+                char input = ' ';
+                int intInput =0;
+                //generate random events
+                Random rng = new Random();
+                bool attacksBegin = true;
 
-            //initialize each group string, starting with its name
-            for (int i = 0; i < numberOfGroups; i++)
-            {
-                listOfGroups.Add("Group " + (i + 1) + ": ");
-            }
+                //commencing cat and mouse game
+                int beginGame = 0;
+                int randomDamage = 0;
+                int randomMove = 0;
+                int counter = 0;
+                var kittyWeapons = 0;
 
-            //cycle through the groups, picking one student at a time to add to the current group and removing that student from the list
-            while (listOfPeople.Count() > 0)
-            {
-                int randomPerson = randMcNally.Next(0, listOfPeople.Count());
-                listOfGroups[groupCounter] += listOfPeople[randomPerson] + ", ";
-                listOfPeople.RemoveAt(randomPerson);
-                groupCounter = (groupCounter + 1) % numberOfGroups;
-            }
+                string mouseyMessage = string.Empty;
+                string kittyMessage = string.Empty;
 
+                bool inputCorrect = false;
 
-            //Print all the groups, removing the final ", "
-            foreach (string nextGroup in listOfGroups)
-            {
-                Console.WriteLine(nextGroup.Substring(0, nextGroup.Length - 2));
-            }
-            Console.WriteLine();
-        }
+                //weapons of choice for mouse
+                string hamstersBall = "You've chosen Henry the Hamster's Ball!";
+                string catNip = "The evil Dr. Meow Meow's only vice.";
+                string teddyTheDog = "The connosseiur of pain's archnemesis";
 
-        /// <summary>
-        /// This improves on the first by accepting a list of names as an argument
-        /// </summary>
-        /// <param name="numberOfGroups"></param>
-        /// <param name="theClassmates"></param>
-        static void PickGroups3000(int numberOfGroups, List<string> theClassmatesInput)
-        {
-            Console.WriteLine("Creating " + numberOfGroups + " groups.");
+                //weapons of choice for kitty
+                string kittyPounce = "Lookout! The kitty is preparing to pounce!";
+                string kittyClaws = "You poor little mouse! Kitty claws are the absolute worst";
+                string kittyTeeth = "Hang onto your tail! The connosseiur of pain is trying to eat you!";
 
-            //clone the list so we can call the function multiple times without emptying it
-            List<string> theClassmates = new List<string>(theClassmatesInput);
-            
-            //In this version, the groups are represented by lists of strings, not strings.
-            //Create a list of lists of names and populate it with empty lists
-            List<List<string>> listOfGroups = new List<List<string>>();
-            for (int i = 0; i < numberOfGroups; i++)
-            {
-                listOfGroups.Add(new List<string>());
-            }
+                //player health/hit points
+                int mouseHitPoints = 100;
+                int kittyHitPoints = 200;
 
-            Random randMcNally = new Random();
+                int kittyMissChance = 15;
 
-            int groupCounter = 0;
-
-            //Cycle through the groups, randomly picking a student and moving them from the list of students to the group
-            while (theClassmates.Count() > 0)
-            {
-                int randomPerson = randMcNally.Next(0, theClassmates.Count());
-                listOfGroups[groupCounter].Add(theClassmates[randomPerson]);
-                theClassmates.RemoveAt(randomPerson);
-                groupCounter = (groupCounter + 1) % numberOfGroups;
-            }
-
-            //Printing the output
-            for (int i = 0; i < listOfGroups.Count(); i++)
-            {
-                string printOut = "Group " + (i + 1) + ": ";
-                foreach (string student in listOfGroups[i])
+                //game loop
+                while (playing)
                 {
-                    printOut += student + ", ";
+                    Console.Clear();
+                    input = ' ';
+                    Console.WriteLine();
+
+                    switch (beginGame)
+                    {
+                        case 0:
+                            Console.WriteLine("Life is hard being a mouse, but this fact becomes all the more painfully apparent when you've got to pick up cheese for your mouse family. Why must it always be on the table at eye level with the evil Dr. Meow Meow's favorite scratching post? There's no doubt about it however, you need that cheese. So what do you do? \n\n1 You borrow Henry's hamster ball\n\n2 You reach for the catnip -- the only vice of the evil connosseiur of pain.\n\n3 Or you call Teddy the dog to the rescue. He's been yearning for vengeance for years.");
+                            
+                            do 
+                            {
+
+                            
+                            input = Console.ReadKey().KeyChar;
+
+                             switch (input)
+                             {
+                             case '1':
+                                    mouseyMessage = "What a sensible mouse you are. You decide to go with Henry's Hamster ball.";
+
+                                    beginGame = 1;
+                                    break;
+
+                                case '2':
+                                    mouseyMessage = "You decide to go with the catnip. That should get the evil Dr. Meow Meow out of your way";
+                                    beginGame = 2;
+                                    break;
+
+                                case '3':
+
+                                    mouseyMessage = "Excellent choice. Teddy the dog will be most pleased, that noble knave.";
+                                    beginGame = 3;
+                                    break;
+                            }
+
+                            break;
+                            
+                            randomMove = rng.Next(1, 4);
+
+                            //kitty attacks                 
+                            if (randomMove == 1)
+                            {
+                               mouseyMessage = "You've been kitty pounced. You take " + mouseHitPoints + " in damage. Being pounced on is no fun. Press any key to continue.";
+                               mouseHitPoints -= randomDamage;
+
+                                Console.ReadKey();
+                            }
+                            else if (randomMove == 2)
+                            {
+                                mouseyMessage = "Kitty claws are the worst. Go find a spot to clean out your wounds. You take " + mouseHitPoints + " in damage and vow revenge.";
+                                mouseHitPoints -= randomDamage;
+                                Console.ReadKey();
+                            }
+                            else if (randomMove == 3)
+                            {
+
+                                mouseyMessage = "You're getting munched on. You take " + mouseHitPoints + " in damage. Scurry up and get out of there before you get eaten!";
+                                mouseHitPoints -= randomDamage;
+                                Console.ReadKey();
+                            }
+                            }//wh
+
+                    }
+                                
+
+                      
+
+
+
+                            }
+                    }//wh
+                    
                 }
-                Console.WriteLine(printOut.Substring(0, printOut.Length - 2));
+
+                
+
             }
-            Console.WriteLine();
+           
         }
-
-        /// <summary>
-        /// Picks groups given a size and a list of names(strings)
-        /// </summary>
-        /// <param name="sizeOfGroups"></param>
-        /// <param name="theClassmates"></param>
-        static void PickGroupsBySize(int sizeOfGroups, List<string> theClassmatesInput)
-        {
-            List<string> theClassmates = new List<string>(theClassmatesInput);
-            int sizeOfClass = theClassmates.Count();
-            int numberOfGroups = sizeOfClass / sizeOfGroups;
-
-            //This checks to see if the next higher number of groups would yield more groups 
-            //with the desired size. If so, it increments the number.
-            if (sizeOfClass % sizeOfGroups > sizeOfGroups / 2)
-            {
-                numberOfGroups++;
-                Console.WriteLine("Creating groups of " + (sizeOfGroups - 1) + " and " + sizeOfGroups + " students.");
-            }
-            else
-            {
-                Console.WriteLine("Creating groups of " + sizeOfGroups + " and " + (sizeOfGroups + 1) + " students.");
-
-            }
-
-
-            List<List<string>> listOfGroups = new List<List<string>>();
-            for (int i = 0; i < numberOfGroups; i++)
-            {
-                listOfGroups.Add(new List<string>());
-            }
-
-            Random randMcNally = new Random();
-
-            int groupCounter = 0;
-
-            while (theClassmates.Count() > 0)
-            {
-                int randomPerson = randMcNally.Next(0, theClassmates.Count());
-                listOfGroups[groupCounter].Add(theClassmates[randomPerson]);
-                theClassmates.RemoveAt(randomPerson);
-                groupCounter = (groupCounter + 1) % numberOfGroups;
-            }
-
-            for (int i = 0; i < listOfGroups.Count(); i++)
-            {
-
-
-
-                Console.WriteLine(string.Join(", ", listOfGroups[i]));
-
-
-
-                //    string printOut = "Group " + (i + 1) + ": ";
-                //    foreach (string student in listOfGroups[i])
-                //    {
-                //        printOut += student + ", ";
-                //    }
-                //    Console.WriteLine(printOut.Substring(0, printOut.Length - 2));
-            }
-            Console.WriteLine();
-        }
-
     }
 }

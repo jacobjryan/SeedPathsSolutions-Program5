@@ -1,0 +1,6 @@
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\TextStatsLambda\TextStatsLambda\bin\Debug\TextStatsLambda.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\TextStatsLambda\TextStatsLambda\bin\Debug\TextStatsLambda.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\TextStatsLambda\TextStatsLambda\bin\Debug\TextStatsLambda.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\TextStatsLambda\TextStatsLambda\obj\Debug\TextStatsLambda.csprojResolveAssemblyReference.cache
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\TextStatsLambda\TextStatsLambda\obj\Debug\TextStatsLambda.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\TextStatsLambda\TextStatsLambda\obj\Debug\TextStatsLambda.pdb

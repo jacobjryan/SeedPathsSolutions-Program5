@@ -1,0 +1,6 @@
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\CombatSim\CombatSim\bin\Debug\CombatSim.exe.config
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\CombatSim\CombatSim\bin\Debug\CombatSim.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\CombatSim\CombatSim\bin\Debug\CombatSim.pdb
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\CombatSim\CombatSim\obj\Debug\CombatSim.csprojResolveAssemblyReference.cache
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\CombatSim\CombatSim\obj\Debug\CombatSim.exe
+C:\Users\dustin\Documents\GitHub\SeedPathsSolutions-Program5\CombatSim\CombatSim\obj\Debug\CombatSim.pdb
